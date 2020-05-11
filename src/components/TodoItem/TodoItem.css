@@ -1,0 +1,10 @@
+.TodoItem {
+    padding: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.CompleteItem {
+    color: gray;
+    text-decoration: line-through;
+}
