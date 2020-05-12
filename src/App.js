@@ -18,7 +18,6 @@ class App extends Component {
 
   onItemClicked(item) {
     return (event) => {
-      console.log(item)
       const isComplete = item.isComplete;
       const {todoItems} = this.state;
       const index = todoItems.indexOf(item);
